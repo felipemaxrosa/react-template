@@ -1,6 +1,6 @@
 import IMAGE from './assets/react-icon.png';
 import SVG from "./assets/bookmark.svg";
-import ClickCounter from 'components/ClickCounter';
+import ClickCounter from './components/ClickCounter';
 import "./styles.scss";
 
 export const App = () => {
