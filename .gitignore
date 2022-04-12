@@ -1,2 +1,6 @@
 build
 node_modules
+.eslintcache
+.coverage
+.DS_Store
+*.log
