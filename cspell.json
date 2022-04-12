@@ -1,0 +1,23 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "testid"
+  ],
+  "flagWords": [
+    "hte"
+  ],
+  "ignorePaths": [
+    "./.github/**",
+    "./.vscode/**",
+    "node_modules/**",
+    "src/*.d.ts",
+    "*rc.js",
+    "./*.json",
+    "./package.json",
+    "./yarn.lock",
+    "*config.*",
+    "*.yml",
+    ".*ignore"
+  ]
+}
