@@ -13,7 +13,6 @@ updates:
       - dependency-name: 'husky'
       - dependency-name: 'eslint'
       - dependency-name: 'cspell'
-      - dependency-name: 'eslint'
       - dependency-name: '@babel/core'
       - dependency-name: '@babel/runtime'
       - dependency-name: 'react'
