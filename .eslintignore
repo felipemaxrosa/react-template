@@ -1,0 +1,7 @@
+src/*.d.ts
+.eslintrc.js
+jest-setup.js
+.vscode
+.github
+coverage
+node_modules
