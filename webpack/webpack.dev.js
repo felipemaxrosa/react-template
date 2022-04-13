@@ -1,5 +1,5 @@
-const webpack = require("webpack");
-const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
+const webpack = require('webpack');
+const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -7,7 +7,9 @@ module.exports = {
     hot: true,
     open: true,
     port: 3000,
-    writeToDisk: false, // https://webpack.js.org/configuration/dev-server/#devserverwritetodisk-
+    devMiddleware: {
+      writeToDisk: false, // https://webpack.js.org/configuration/dev-server/#devserverwritetodisk-
+    },
   },
   devtool: 'cheap-module-source-map',
   plugins: [
