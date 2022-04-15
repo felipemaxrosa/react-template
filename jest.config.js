@@ -10,4 +10,5 @@ module.exports = {
     '\\.(gif|ttf|eot|svg)$': '<rootDir>/__mocks__/fileMock.js',
   },
   testEnvironment: 'jsdom',
+  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
 };

@@ -11,7 +11,7 @@
     "lint:ci": "eslint \"./src/**/*.{js,jsx,ts,tsx,json}\"",
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "server": "npx serve ./build",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "",
